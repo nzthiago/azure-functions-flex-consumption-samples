@@ -13,11 +13,11 @@ param location = '[AZURE REGION FOR CREATING THE FUNCTION APP]'
 // param applicationInsightsName = ''
 
 // Function runtime configuration
-// param functionAppRuntime = 'dotnet-isolated'  // Options: 'dotnet-isolated', 'python', 'java', 'node', 'powerShell'
-// param functionAppRuntimeVersion = '9.0'       // Depends on runtime choice
+// param functionAppRuntime = 'dotnet-isolated'  // Options: 'dotnet-isolated', 'python', 'java', 'node', 'powerShell', 'custom'
+// param functionAppRuntimeVersion = '10.0'       // Depends on runtime choice (use any non-empty value such as '1' for the 'custom' handler runtime)
 
 // Scaling and performance configuration
-// param maximumInstanceCount = 100              // Range: 40-1000
+// param maximumInstanceCount = 100              // Range: 1-1000
 // param instanceMemoryMB = 2048                 // Options: 512, 2048, 4096
 
 // Security and reliability configuration
