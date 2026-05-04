@@ -46,7 +46,7 @@ This template introduces several best practices, including enhanced security thr
 
 To deploy this Bicep template, you need:
 
-- An active [Azure subscription](https://azure.microsoft.com/free/)
+- An active [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 - The latest [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli) 
 - The latest [Bicep CLI](https://docs.microsoft.com/azure/azure-resource-manager/bicep/install) (or use the built-in Bicep support in Azure CLI)
 - Sufficient permissions to deploy resources at the subscription scope (e.g., Owner or Contributor role)
