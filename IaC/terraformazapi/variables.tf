@@ -47,7 +47,7 @@ variable "functionAppRuntime" {
 
 variable "functionAppRuntimeVersion" {
   default = "9.0"
-  description = "The runtime version for your app. One of the following: '3.10', '3.11', '7.4', '8.0', '10', '11', '17', '20', '21', '22'. When functionAppRuntime is 'custom', this can be any non-empty value (for example, '1') because custom handlers don't have a predefined version."
+  description = "The runtime version for your app. One of the following: '3.10', '3.11', '7.4', '8.0', '10', '11', '17', '20', '21', '22'. When functionAppRuntime is 'custom', use '1.0'."
 }
 variable "zoneRedundant" {
   default = false

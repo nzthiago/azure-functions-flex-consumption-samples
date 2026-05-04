@@ -22,7 +22,7 @@ param applicationInsightsName string = ''
 @allowed(['dotnet-isolated','python','java', 'node', 'powerShell', 'custom'])
 param functionAppRuntime string = 'python'
 
-@description('The runtime version for your app. Supported values for the built-in runtimes, like: \'3.10\', \'3.11\', \'3.12\', \'7.4\', \'8.0\', \'9.0\', \'10\', \'11\', \'17\', \'20\', \'21\', \'22\'. When functionAppRuntime is \'custom\', this can be any non-empty value (for example, \'1\') because custom handlers don\'t have a predefined version.')
+@description('The runtime version for your app. Supported values for the built-in runtimes, like: \'3.10\', \'3.11\', \'3.12\', \'7.4\', \'8.0\', \'9.0\', \'10\', \'11\', \'17\', \'20\', \'21\', \'22\'. When functionAppRuntime is \'custom\', use \'1.0\'.')
 param functionAppRuntimeVersion string = '3.11'
 
 @minValue(40)

@@ -39,7 +39,7 @@ Create a copy and modify the parameters file `variables.tfvars` to specify the v
 | **functionPlanName** | a unique name for the Flex Consumption app plan.|
 | **storageAccountName** | a unique name for the storage account.|
 | **functionAppRuntime** | The runtime of the Flex Consumption app that you plan to deploy. One of the following values: `dotnet-isolated`, `python`, `java`, `node`, `powershell`, `custom` (for [custom handlers](https://learn.microsoft.com/azure/azure-functions/functions-custom-handlers)).|
-| **functionAppRuntimeVersion** | The runtime version of the Flex Consumption app that you plan to deploy. One of the following values: `3.10`, `3.11`, `7.4`, `8.0`, `9.0`, `10`, `11`, `17`, `20`, `21`, `22`. When `functionAppRuntime` is `custom`, this can be any non-empty value (for example, `1`) since custom handlers don't have a predefined version.|
+| **functionAppRuntimeVersion** | The runtime version of the Flex Consumption app that you plan to deploy. One of the following values: `3.10`, `3.11`, `7.4`, `8.0`, `9.0`, `10`, `11`, `17`, `20`, `21`, `22`. When `functionAppRuntime` is `custom`, use `1.0`.|
 | **zoneRedundant** | Whether the app is zone redundant or not.|
 
 Here is an example `variables.tfvars` that you can modify:
